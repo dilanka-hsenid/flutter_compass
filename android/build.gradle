@@ -20,9 +20,9 @@ rootProject.allprojects {
 }
 
 apply plugin: 'com.android.library'
-
 android {
-    compileSdkVersion 30
+    namespace "com.hemanthraj.fluttercompass"
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 20
